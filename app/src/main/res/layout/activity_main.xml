@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.floatwindowspremess.MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="授权检测"
+       android:onClick="onclick"
+       />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="小米神隐模式跳转"
+       android:onClick="god"
+       />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="跳转开发者选项界面"
+       android:onClick="settings"
+       />
+
+</LinearLayout>
